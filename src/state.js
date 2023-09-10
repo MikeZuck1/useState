@@ -7,8 +7,11 @@ function State() {
     <div>
       <p>I've been clicked {count} times!</p>
       <button onClick={() => setCount(count +1)}>
-        click here
-      </button>
+        more
+      </button> 
+      <button onClick={() => setCount(count -1)}>
+        less
+      </button> 
     </div>
   )
 }
